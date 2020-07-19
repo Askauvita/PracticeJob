@@ -1,0 +1,230 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:700,700i&display=swap&subset=cyrillic,cyrillic-ext');
+ @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic,cyrillic-ext');
+ body
+{
+ 
+	width:100%;
+height: 100%;
+     
+}
+ 
+header
+{
+	      
+	 opacity: 0.9;
+	height: 900px;
+	width:100%;
+background-image: url(images/comp.jpg);
+	background-repeat: no-repeat;
+	 background-size: cover;
+}
+  
+ 
+header .number
+{
+	text-shadow: 1px 1px 1px black, 0 0 1em black;
+	text-decoration: none;
+	opacity: 0.8;
+	float: right;
+ color:white;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+header i
+{
+	opacity: 1;
+	font-size: 38px;
+}
+ 
+header h1
+{
+	text-shadow: 1px 2px 1px black ;
+	padding-left: 15px;
+	opacity: 1;
+	width:100%;
+	text-align: left;
+	 font-size: 27px;
+	 opacity: 1.0;
+	 font-weight: 900px;
+	font-family: 'Roboto', sans-serif;
+	  padding-bottom: 10px;
+  color: white;
+}
+
+ header h2
+ {
+	text-shadow: 2px 2px 3px black, 0 0 1em black;
+	 margin-top: -50px;
+	 text-align: center;
+	 font-size: 35px;
+	 opacity: 1;
+	 font-weight: 1200px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 300px;
+  color: white;
+ }
+ 
+.InformPhoto
+{ height: 300px;  box-shadow: inset 5px 5px 5px; }
+.Inform h3 {font-size: 22px;}
+.Inform
+{ text-shadow: 1px 0px 0px black ;
+	 float: left;
+	height: 320px;
+	width: 60%;
+	 text-align: center;
+	 padding-top: 50px;
+	 padding-left: 100px;
+}
+.Photo
+{
+	 
+	 
+ height: 500px; 
+ padding-top: 10px;
+  
+ width: 600px;
+ background-repeat: no-repeat;
+float: right;
+	 
+	 
+}
+ 
+.textosobenn { margin-left: 20px; width: 40%; opacity: 1;}
+.osobenn
+{ text-shadow: 1px 1px 1px black, 0 0 1em black;
+	font-family: 'PT Sans';
+	 color: white;
+	padding-top: 20px;
+	 text-align: left;
+	height: 400px;
+	background-image: url(images/offi.JPG);
+	opacity: 0.9;
+	background-position: center center;
+	  background-size: cover;	 background-repeat: no-repeat;
+}
+footer h5 {font-weight: 700;}
+footer a {color: white; }
+footer a:hover {color: white; text-decoration: none;}
+footer
+{
+	background: linear-gradient(45deg, #333333, #808080);
+	 font-weight: 600;
+	padding-top: 10px;
+	font-size: 15px;
+	color: white;
+text-align: center;
+	height: 200px;
+	 background-color: #bcb6bf;
+}
+ @media only screen and (min-width: 1800px) and (max-width: 2680px) {
+	 .InformPhoto {height: 440px;}
+	 header h2 .glo {font-size: 25px;}
+	 .Photo {height: 350px; width: 25%; margin: 0 auto; float: none; padding-left: 200px;}
+	 .InformPhoto h5{font-size: 30px;}
+	 .Inform {font-size: 25px;}
+	header h1 {font-size: 30px;}
+	header { background-size: cover; } 
+    .osobenn h5 {font-size: 30px;}
+	.osobenn { background-size: cover; font-size: 30px; height: 700px;}
+	footer {font-size: 25px; height: 280px;}
+	}
+ 
+@media only screen and (max-width: 1024px) {.osobenn {height: 450px;}}
+@media only screen and (max-width: 930px)
+{
+	.osobenn h3{ font-size: 25px;}
+	.osobenn { padding-top: 100px; height: 650px;}
+	.Photo {  margin: 0 auto;}
+	.InformPhoto {height: 430px;}
+}
+@media only screen and (max-width: 701px)
+{
+	body {height: 2600px;}
+	header h1 {text-align: center;}
+	 .Inform h3 {font-size: 20px;}
+	.InformPhoto
+	{ height: 850px;
+	font-size: 20px;	
+	}
+	.osobenn { height: 850px; }
+	.Photo {width: 60%;height: 300px; background-position: center;}
+	.Inform {width: 100%; height: 530px; padding-right: 70px;}
+	
+}
+@media only screen and (max-width: 850px)
+{
+	 
+	header h1 {text-align: center;}
+	 .Inform h3 {font-size: 22px;}
+	 .number {padding-right: 60px;}
+	.InformPhoto { height: 800px; font-size: 20px; }
+	.osobenn {height: 800px;}
+	.textosobenn { text-align: center; font-size: 20px;  width: 90%;}
+	 
+	.Photo {width: 50%; display: flex; height: 370px;  float: none;   margin: 0 auto; padding-bottom: 40px;}
+	.Inform {width: 100%; height: 430px; padding-right: 70px;}
+	
+}
+@media only screen and (max-width: 590px)
+{
+	.Photo {width: 70%; padding-bottom: 20px;  }
+}
+@media only screen and (max-width: 550px)
+{
+	 
+	header h2 {text-align: center;}
+	 .Inform h3 {font-size: 15px;}
+	 .number {padding-right: 60px;}
+	.InformPhoto { height: 1050px; font-size: 20px; }
+	.osobenn {height: 800px;}
+	.textosobenn { text-align: center; font-size: 20px;  width: 90%;}
+	
+	.Photo {width: 80%;height: 350px; margin-right: 10px; margin-top: 70px;}
+	.Inform {width: 100%; height: 570px; padding-right: 70px;}
+	.Inform h3 {font-size: 20px;}
+}
+@media only screen and (max-width: 470px)
+{ .Inform {height: 720px;} .Inform h3 {font-size: 20px;} }
+@media only screen and (max-width: 420px)
+{
+	.Inform h3 {font-size: 17px;}
+	.Inform {height: 830px;}
+.InformPhoto {height: 1170px;}
+.Inform {font-size: 16px;}
+}
+@media only screen and (max-width: 380px)
+{ 
+ 
+header { width: 100%; background-size: cover;}
+   header h2 { font-size: 24px;}
+	header h1 {text-align: center;}
+	 .number {font-size: 17px;}
+	.InformPhoto
+	{ height: 970px; }
+	.osobenn { height: 1100px; }
+	.Photo {  padding-left: 20px; padding-right: 0; width: 95%;}
+.Inform {width: 100%; height: 650px; padding-right: 70px; font-size: 14px;}
+.Inform h3 {font-size: 17px;}
+}
+a.glo{
+ color:white;
+ padding: 10px 20px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,red 50%,red);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 500 18px Roboto;
+ border: 4px solid white;
+}
+a.glo:hover {
+background-position: 0 0;
+text-decoration: none;
+color:white;
+border: 4px solid red;
+}
